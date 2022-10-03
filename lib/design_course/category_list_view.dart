@@ -59,21 +59,10 @@ class _CategoryListViewState extends State<CategoryListView>
                       Tween<double>(begin: 0.0, end: 1.0).animate(
                           CurvedAnimation(
                               parent: animationController!,
-                              curve: Interval((1 / count) * index, 1.0,
-                                  curve: Curves.fastOutSlowIn)));
-                  animationController?.forward();
-
-                  return CategoryView(
-                    category: Category.categoryList[index],
-                    animation: animation,
-                    animationController: animationController,
-                    callback: widget.callBack,
-                  );
-                },
-              );
-            }
-          },
-        ),
+                    
+                            
+                            
+                            
       ),
     );
   }
@@ -156,7 +145,49 @@ class CategoryView extends StatelessWidget {
                                             child: Row(
                                               mainAxisAlignment:
                                                   MainAxisAlignment
-                                                      .spaceBetween,
+                                                              curve: Interval((1 / count) * index, 1.0,
+                                  curve: Curves.fastOutSlowIn)));
+                  animationController?.forward();
+
+                  return CategoryView(
+                    category: Category.categoryList[index],
+                    animation: animation,
+                    animationController: animationController,
+                    callback: widget.callBack,
+                  );
+                },
+              );
+            }
+          },
+        ),          curve: Interval((1 / count) * index, 1.0,
+                                  curve: Curves.fastOutSlowIn)));
+                  animationController?.forward();
+
+                  return CategoryView(
+                    category: Category.categoryList[index],
+                    animation: animation,
+                    animationController: animationController,
+                    callback: widget.callBack,
+                  );
+                },
+              );
+            }
+          },
+        ),          curve: Interval((1 / count) * index, 1.0,
+                                  curve: Curves.fastOutSlowIn)));
+                  animationController?.forward();
+
+                  return CategoryView(
+                    category: Category.categoryList[index],
+                    animation: animation,
+                    animationController: animationController,
+                    callback: widget.callBack,
+                  );
+                },
+              );
+            }
+          },
+        ),  .spaceBetween,
                                               crossAxisAlignment:
                                                   CrossAxisAlignment.center,
                                               children: <Widget>[
