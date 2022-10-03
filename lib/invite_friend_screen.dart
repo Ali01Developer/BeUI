@@ -31,26 +31,6 @@ class _InviteFriendState extends State<InviteFriend> {
                     right: 16),
                 child: Image.asset('assets/images/inviteImage.png'),
               ),
-              Container(
-                padding: const EdgeInsets.only(top: 8),
-                child: Text(
-                  'Invite Your Friends',
-                  style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold,
-                    color: isLightMode ? Colors.black : Colors.white,
-                  ),
-                ),
-              ),
-              Container(
-                padding: const EdgeInsets.only(top: 16),
-                child: Text(
-                  'Are you one of those who makes everything\n at the last moment?',
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 16,
-                    color: isLightMode ? Colors.black : Colors.white,
-                  ),
                 ),
               ),
               Expanded(
@@ -108,6 +88,46 @@ class _InviteFriendState extends State<InviteFriend> {
                       ),
                     ),
                   ),
+                              boxShadow: <BoxShadow>[
+                          BoxShadow(
+                              color: Colors.grey.withOpacity(0.6),
+                              offset: const Offset(4, 4),
+                              blurRadius: 8.0),
+                        ],
+                      ),
+                      child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            //method here for functionality
+                            print('Share Action.');
+                          },
+                          child: Center(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Icon(
+                                              boxShadow: <BoxShadow>[
+                          BoxShadow(
+                              color: Colors.grey.withOpacity(0.6),
+                              offset: const Offset(4, 4),
+                              blurRadius: 8.0),
+                        ],
+                      ),
+                      child: Material(
+                        color: Colors.transparent,
+                        child: InkWell(
+                          onTap: () {
+                            //method here for functionality
+                            print('Share Action.');
+                          },
+                          child: Center(
+                            child: Row(
+                              mainAxisAlignment: MainAxisAlignment.center,
+                              crossAxisAlignment: CrossAxisAlignment.center,
+                              children: <Widget>[
+                                Icon(
                 ),
               )
             ],
