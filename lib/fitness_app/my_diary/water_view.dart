@@ -90,27 +90,7 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                                           fontWeight: FontWeight.w500,
                                           fontSize: 18,
                                           letterSpacing: -0.2,
-                                          color: FitnessAppTheme.nearlyDarkBlue,
-                                        ),
-                                      ),
-                                    ),
-                                  ],
-                                ),
-                                Padding(
-                                  padding: const EdgeInsets.only(
-                                      left: 4, top: 2, bottom: 14),
-                                  child: Text(
-                                    'of daily goal 3.5L',
-                                    textAlign: TextAlign.center,
-                                    style: TextStyle(
-                                      fontFamily: FitnessAppTheme.fontName,
-                                      fontWeight: FontWeight.w500,
-                                      fontSize: 14,
-                                      letterSpacing: 0.0,
-                                      color: FitnessAppTheme.darkText,
-                                    ),
-                                  ),
-                                ),
+                      
                               ],
                             ),
                             Padding(
@@ -280,6 +260,49 @@ class _WaterViewState extends State<WaterView> with TickerProviderStateMixin {
                           ),
                         ),
                       )
+                                        decoration: BoxDecoration(
+                            color: HexColor('#E8EDFE'),
+                            borderRadius: const BorderRadius.only(
+                                topLeft: Radius.circular(80.0),
+                                bottomLeft: Radius.circular(80.0),
+                                bottomRight: Radius.circular(80.0),
+                                topRight: Radius.circular(80.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: const Offset(2, 2),
+                                  blurRadius: 4),
+                            ],
+                          ),
+                          child: WaveView(    decoration: BoxDecoration(
+                            color: HexColor('#E8EDFE'),
+                            borderRadius: const BorderRadius.only(
+                                topLeft: Radius.circular(80.0),
+                                bottomLeft: Radius.circular(80.0),
+                                bottomRight: Radius.circular(80.0),
+                                topRight: Radius.circular(80.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: const Offset(2, 2),
+                                  blurRadius: 4),
+                            ],
+                          ),
+                          child: WaveView(    decoration: BoxDecoration(
+                            color: HexColor('#E8EDFE'),
+                            borderRadius: const BorderRadius.only(
+                                topLeft: Radius.circular(80.0),
+                                bottomLeft: Radius.circular(80.0),
+                                bottomRight: Radius.circular(80.0),
+                                topRight: Radius.circular(80.0)),
+                            boxShadow: <BoxShadow>[
+                              BoxShadow(
+                                  color: FitnessAppTheme.grey.withOpacity(0.4),
+                                  offset: const Offset(2, 2),
+                                  blurRadius: 4),
+                            ],
+                          ),
+                          child: WaveView(
                     ],
                   ),
                 ),
