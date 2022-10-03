@@ -67,6 +67,57 @@ class _SliderViewState extends State<SliderView> {
               value: distValue,
             ),
           ),
+          child: Slider(
+              onChanged: (double value) {
+                setState(() {
+                  distValue = value;
+                });
+                try {
+                  widget.onChangedistValue!(distValue);
+                } catch (_) {}
+              },
+              min: 0,
+              max: 100,
+              activeColor: HotelAppTheme.buildLightTheme().primaryColor,
+              inactiveColor: Colors.grey.withOpacity(0.4),
+              divisions: 100,
+              value: distValue,
+            ),
+          ),
+          child: Slider(
+              onChanged: (double value) {
+                setState(() {
+                  distValue = value;
+                });
+                try {
+                  widget.onChangedistValue!(distValue);
+                } catch (_) {}
+              },
+              min: 0,
+              max: 100,
+              activeColor: HotelAppTheme.buildLightTheme().primaryColor,
+              inactiveColor: Colors.grey.withOpacity(0.4),
+              divisions: 100,
+              value: distValue,
+            ),
+          ),
+          child: Slider(
+              onChanged: (double value) {
+                setState(() {
+                  distValue = value;
+                });
+                try {
+                  widget.onChangedistValue!(distValue);
+                } catch (_) {}
+              },
+              min: 0,
+              max: 100,
+              activeColor: HotelAppTheme.buildLightTheme().primaryColor,
+              inactiveColor: Colors.grey.withOpacity(0.4),
+              divisions: 100,
+              value: distValue,
+            ),
+          ),
         ],
       ),
     );
@@ -130,5 +181,25 @@ class CustomThumbShape extends SliderComponentShape {
 
   double convertRadiusToSigma(double radius) {
     return radius * 0.57735 + 0.5;
+    child: Slider(
+              onChanged: (double value) {
+                setState(() {
+                  distValue = value;
+                });
+                try {
+                  widget.onChangedistValue!(distValue);
+                } catch (_) {}
+              },
+              min: 0,
+              max: 100,
+              activeColor: HotelAppTheme.buildLightTheme().primaryColor,
+              inactiveColor: Colors.grey.withOpacity(0.4),
+              divisions: 100,
+              value: distValue,
+            ),
+          ),
   }
+  
+  
+  
 }
