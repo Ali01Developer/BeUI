@@ -37,7 +37,56 @@ class _HomeDrawerState extends State<HomeDrawer> {
         labelName: 'Help',
         isAssetsImage: true,
         imageName: 'assets/images/supportIcon.png',
-      ),
+      ),IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )IconButton(
+            onPressed: () {
+              Navigator.of(context).pushNamed(AddPlaceScreen.routeName);
+            },
+            icon: Icon(
+              Icons.add,
+            ),
+          )
       DrawerList(
         index: DrawerIndex.FeedBack,
         labelName: 'FeedBack',
