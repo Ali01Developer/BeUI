@@ -17,6 +17,172 @@ class _DesignCourseHomeScreenState extends State<DesignCourseHomeScreen> {
   Widget build(BuildContext context) {
     return Container(
       color: DesignCourseAppTheme.nearlyWhite,
+      laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';laces/helpers/db_helper.dart';
+import 'package:great_places/models/place.dart';
+
+class GreatPlaces with ChangeNotifier {
+  List<Place> _items = [];
+  List<Place> get items => [..._items];
+
+  void addPlace(
+    String title,
+    File image,'
+    '
+    'import 'dart:io';
       child: Scaffold(
         backgroundColor: Colors.transparent,
         body: Column(
