@@ -129,6 +129,16 @@ class _DrawerUserControllerState extends State<DrawerUserController>
                             widget.onDrawerCall!(indexType);
                           } catch (e) {}
                         },
+                             iconAnimationController: iconAnimationController,
+                        callBackIndex: (DrawerIndex indexType) {
+                          onDrawerClick();
+                          try {     iconAnimationController: iconAnimationController,
+                        callBackIndex: (DrawerIndex indexType) {
+                          onDrawerClick();
+                          try {     iconAnimationController: iconAnimationController,
+                        callBackIndex: (DrawerIndex indexType) {
+                          onDrawerClick();
+                          try {
                       ),
                     );
                   },
@@ -221,5 +231,22 @@ class _DrawerUserControllerState extends State<DrawerUserController>
         curve: Curves.fastOutSlowIn,
       );
     }
+        scrollController?.animateTo(
+        widget.drawerWidth,
+        duration: const Duration(milliseconds: 400),
+        curve: Curves.fastOutSlowIn,
+      );    scrollController?.animateTo(
+        widget.drawerWidth,
+        duration: const Duration(milliseconds: 400),
+        curve: Curves.fastOutSlowIn,
+      );    scrollController?.animateTo(
+        widget.drawerWidth,
+        duration: const Duration(milliseconds: 400),
+        curve: Curves.fastOutSlowIn,
+      );    scrollController?.animateTo(
+        widget.drawerWidth,
+        duration: const Duration(milliseconds: 400),
+        curve: Curves.fastOutSlowIn,
+      );
   }
 }
