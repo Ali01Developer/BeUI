@@ -190,6 +190,50 @@ class _FiltersScreenState extends State<FiltersScreen> {
       accomodationListData[index].isSelected =
           !accomodationListData[index].isSelected;
 
+      int count = 0;     d.isSelected = false;
+        });
+      } else {
+        accomodationListData.forEach((d) {
+          d.isSelected = true;
+        });
+      }
+    } else {
+      accomodationListData[index].isSelected =
+          !accomodationListData[index].isSelected;
+
+      int count = 0;     d.isSelected = false;
+        });
+      } else {
+        accomodationListData.forEach((d) {
+          d.isSelected = true;
+        });
+      }
+    } else {
+      accomodationListData[index].isSelected =
+          !accomodationListData[index].isSelected;
+
+      int count = 0;     d.isSelected = false;
+        });
+      } else {
+        accomodationListData.forEach((d) {
+          d.isSelected = true;
+        });
+      }
+    } else {
+      accomodationListData[index].isSelected =
+          !accomodationListData[index].isSelected;
+
+      int count = 0;     d.isSelected = false;
+        });
+      } else {
+        accomodationListData.forEach((d) {
+          d.isSelected = true;
+        });
+      }
+    } else {
+      accomodationListData[index].isSelected =
+          !accomodationListData[index].isSelected;
+
       int count = 0;
       for (int i = 0; i < accomodationListData.length; i++) {
         if (i != 0) {
@@ -348,20 +392,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
                 color: Colors.grey,
                 fontSize: MediaQuery.of(context).size.width > 360 ? 18 : 16,
                 fontWeight: FontWeight.normal),
-          ),
-        ),
-        RangeSliderView(
-          values: _values,
-          onChangeRangeValues: (RangeValues values) {
-            _values = values;
-          },
-        ),
-        const SizedBox(
-          height: 8,
-        )
-      ],
-    );
-  }
+        
 
   Widget getAppBarUI() {
     return Container(
